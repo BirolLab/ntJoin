@@ -1,9 +1,9 @@
-[![Release](https://img.shields.io/github/release/bcgsc/ntJoin.svg)](https://github.com/bcgsc/ntJoin/releases)
-[![Issues](https://img.shields.io/github/issues/bcgsc/ntJoin.svg)](https://github.com/bcgsc/ntJoin/issues)
+[![Release](https://img.shields.io/github/release/BirolLab/ntJoin.svg)](https://github.com/BirolLab/ntJoin/releases)
+[![Issues](https://img.shields.io/github/issues/BirolLab/ntJoin.svg)](https://github.com/BirolLab/ntJoin/issues)
 [![Conda](https://img.shields.io/conda/dn/bioconda/ntjoin?label=Conda)](https://anaconda.org/bioconda/ntjoin)
 [![Published in Bioinformatics](https://img.shields.io/badge/Published%20in-Bioinformatics-blue.svg)](https://doi.org/10.1093/bioinformatics/btaa253)
 
-![Logo](https://github.com/bcgsc/ntJoin/blob/master/ntjoin-logo.png)
+![Logo](https://github.com/BirolLab/ntJoin/blob/master/ntjoin-logo.png)
 
 # ntJoin
 
@@ -39,7 +39,7 @@ Design and implementation: Lauren Coombe
 
 ### Citing ntJoin
 
-Thank you for your [![Stars](https://img.shields.io/github/stars/bcgsc/ntJoin.svg)](https://github.com/bcgsc/ntJoin/stargazers) and for using, developing and promoting this free software!
+Thank you for your [![Stars](https://img.shields.io/github/stars/BirolLab/ntJoin.svg)](https://github.com/BirolLab/ntJoin/stargazers) and for using, developing and promoting this free software!
 
 If you use ntJoin in your research, please cite:
 
@@ -131,15 +131,9 @@ ntJoin assemble target=my_scaffolds.fa target_weight=1 reference_config=config_f
 conda install -c bioconda -c conda-forge ntjoin=1.1.5
 ```
 
-#### Installing ntJoin using Brew
-ntJoin can be installed using [Homebrew](https://brew.sh) on macOS or [Linuxbrew](http://linuxbrew.sh) on Linux:
-```sh
-brew install brewsci/bio/ntjoin
-```
-
 #### Installing ntJoin from the source code
 ```sh
-curl -L --output ntJoin-1.1.5.tar.gz https://github.com/bcgsc/ntJoin/releases/download/v1.1.5/ntJoin-1.1.5.tar.gz && tar xvzf ntJoin-1.1.5.tar.gz 
+curl -L --output ntJoin-1.1.5.tar.gz https://github.com/BirolLab/ntJoin/releases/download/v1.1.5/ntJoin-1.1.5.tar.gz && tar xvzf ntJoin-1.1.5.tar.gz 
 ```
 
 ## Dependencies

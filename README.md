@@ -142,7 +142,7 @@ curl -L --output ntJoin-1.1.5.tar.gz https://github.com/BirolLab/ntJoin/releases
 * [bedtools v2.29.2+](https://bedtools.readthedocs.io/en/latest/)
 * [samtools](https://github.com/samtools/samtools)
 * [zlib](https://www.zlib.net/)
-* [btllib](https://github.com/bcgsc/btllib)
+* [btllib](https://github.com/BirolLab/btllib)
 * [packaging](https://pypi.org/project/packaging/)
 
 Python dependencies can be installed with:

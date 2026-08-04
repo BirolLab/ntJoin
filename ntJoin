@@ -117,7 +117,7 @@ endif
 help:
 	@echo ""
 	@echo "ntJoin: Scaffolding assemblies using reference assemblies and minimizer graphs"
-	@echo "ntJoin v1.1.5"
+	@echo "ntJoin v1.1.6"
 	@echo "Usage: ntJoin assemble target=<target scaffolds> references='List of reference assemblies' reference_weights='List of weights per reference assembly'"
 	@echo ""
 	@echo "Options:"
@@ -186,7 +186,7 @@ ifeq ($(ref), None)
 endif
 
 version:
-	@echo "ntJoin v1.1.5"
+	@echo "ntJoin v1.1.6"
 	@echo "Written by Lauren Coombe (lcoombe@bccrc.ca)"
 
 check_install:

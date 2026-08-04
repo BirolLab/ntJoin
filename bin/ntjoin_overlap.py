@@ -81,6 +81,17 @@ def merge_overlapping(list_mxs, list_mx_info, source, target, nodes):
 
     if source_cut is None or target_cut is None:
         return False
+    
+    # If the source cut looks invalid, invalidate the start_adjust too to be safe
+    if not 0 <= source_cut <= nodes[source].get_aligned_length():
+        return False
+    if not 0 <= target_cut <= nodes[target].get_aligned_length():
+        return False
+    if source_cut <= nodes[source].start_adjust:
+        nodes[source].start_adjust = 0
+        return False
+    if target_cut >= nodes[target].get_end_adjusted_coordinate():
+        return False
 
     nodes[source].end_adjust = source_cut
     nodes[target].start_adjust = target_cut

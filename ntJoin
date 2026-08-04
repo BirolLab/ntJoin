@@ -2,7 +2,7 @@
 
 # ntJoin: Scaffold assemblies using reference assemblies and minimizer graphs
 # Written by Lauren Coombe @lcoombe
-# ntJoin v1.1.5
+# ntJoin v1.1.6
 
 # Input files
 target=None

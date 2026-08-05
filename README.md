@@ -128,12 +128,12 @@ ntJoin assemble target=my_scaffolds.fa target_weight=1 reference_config=config_f
 
 #### Installing ntJoin using Conda
 ```sh
-conda install -c bioconda -c conda-forge ntjoin=1.1.6
+conda install -c bioconda -c conda-forge ntjoin=1.1.7
 ```
 
 #### Installing ntJoin from the source code
 ```sh
-curl -L --output ntJoin-1.1.6.tar.gz https://github.com/BirolLab/ntJoin/releases/download/v1.1.6/ntJoin-1.1.6.tar.gz && tar xvzf ntJoin-1.1.6.tar.gz 
+curl -L --output ntJoin-1.1.7.tar.gz https://github.com/BirolLab/ntJoin/releases/download/v1.1.7/ntJoin-1.1.7.tar.gz && tar xvzf ntJoin-1.1.7.tar.gz 
 ```
 
 ## Dependencies

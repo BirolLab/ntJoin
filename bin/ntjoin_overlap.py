@@ -92,6 +92,13 @@ def merge_overlapping(list_mxs, list_mx_info, source, target, nodes):
         return False
     if target_cut >= nodes[target].get_end_adjusted_coordinate():
         return False
+    
+    # If the overlap length is greater than either of the incident segments, abort trim
+    source_trim_amount = nodes[source].get_aligned_length() - source_cut
+    target_trim_amount = target_cut
+    if source_trim_amount > nodes[target].get_aligned_length() or \
+            target_trim_amount > nodes[source].get_aligned_length():
+        return False
 
     nodes[source].end_adjust = source_cut
     nodes[target].start_adjust = target_cut

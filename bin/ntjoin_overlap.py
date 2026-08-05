@@ -98,9 +98,6 @@ def merge_overlapping(list_mxs, list_mx_info, source, target, nodes):
     target_trim_amount = target_cut
     if source_trim_amount > nodes[target].get_aligned_length() or \
             target_trim_amount > nodes[source].get_aligned_length():
-        print(f"NOTE: Skipping overlap trim between {nodes[source].contig} and "
-              f"{nodes[target].contig} - inferred overlap length exceeds a sequence length "
-              f"(source_trim={source_trim_amount}, target_trim={target_trim_amount})")
         return False
 
     nodes[source].end_adjust = source_cut
